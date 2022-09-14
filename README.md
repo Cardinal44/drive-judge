@@ -1,2 +1,3 @@
-# drive-judge
-Meant to judge your fitness as a driver.
+# hackathon
+
+random opencv stuff for a hackathon
