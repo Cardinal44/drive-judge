@@ -1,11 +1,10 @@
 def judge_it(metric,low,high,mean,deviation):
     score = 3
+    
     std_metric_percent=((metric-low)*100)//(high-low)
-    print(std_metric_percent)
     mean_percent=((mean-low)*100)//(high-low)
-    print(mean_percent)
     deviation_percent=((deviation-low)*100)//(high-low)
-    print(deviation_percent)
+
     differential=int((std_metric_percent-mean_percent)//deviation_percent)
   
     if differential>0:
